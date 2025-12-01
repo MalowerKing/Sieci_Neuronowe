@@ -9,7 +9,7 @@ import numpy
 import matplotlib
 
 # Set the path to the file you'd like to load
-file_path = ""
+file_path = "heart.csv"
 
 # Load the latest version
 df = kagglehub.load_dataset(
