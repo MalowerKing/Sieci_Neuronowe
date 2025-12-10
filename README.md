@@ -18,6 +18,8 @@ Make sure you have the following installed:
 
 - KaggleHub
 
+- Scikit-learn
+
 **Installation**
 
 Clone the repository
@@ -33,7 +35,7 @@ venv\Scripts\activate        # Windows
 
 **Install dependencies**
 
-pip install torch numpy pandas matplotlib kagglehub
+pip install torch numpy pandas matplotlib kagglehub scikit-learn
 
 If you need a specific version of PyTorch for your system (CPU/GPU), check:
 https://pytorch.org/get-started/locally/
@@ -46,7 +48,3 @@ import kagglehub
 
 path = kagglehub.dataset_download("owner/dataset-name")
 print("Dataset downloaded to:", path)
-Running the Project
-python main.py
-
-(Replace main.py with your entry file if different.)
