@@ -257,3 +257,4 @@ pyrightconfig.json
 
 *.lock
 *.txt
+*.nix
